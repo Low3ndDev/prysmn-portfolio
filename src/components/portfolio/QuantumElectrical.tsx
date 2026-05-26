@@ -86,7 +86,7 @@ const testimonials = [
     text: "Got solar panels and a battery installed. The team was professional from quote to install. Already seeing savings on our power bills. Highly recommend.",
   },
   {
-    name: 'Jenny O'Connor',
+    name: "Jenny O'Connor",
     suburb: 'Melton',
     rating: 5,
     text: "Used Quantum for our new home build — data points, smart lighting, the lot. Everything works perfectly and the pricing was fair. Will use again.",

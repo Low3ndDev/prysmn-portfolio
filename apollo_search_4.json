@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://docs.apollo.io",
+    "name": "Apollo API Documentation - Apollo.io",
+    "snippet": "Here, you'll find comprehensive guides and documentation to help you get started with Apollo's API quickly, along with support if you get stuck.",
+    "host_name": "docs.apollo.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pypi.org/project/apollo-sdk",
+    "name": "apollo-sdk - PyPI",
+    "snippet": "Apollo is an open-source validation framework to deploy guardrails for improved user experience and responsiveness of your AI systems.",
+    "host_name": "pypi.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/galaxy-genome-annotation/python-apollo",
+    "name": "Python library for talking to Apollo API · GitHub",
+    "snippet": "Installation. pip install apollo. Examples. Example code to create a new organism and add yourself in the permission list: from apollo import ApolloInstance wa ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dlthub.com/context/source/apollo",
+    "name": "Apollo Python API Docs | dltHub",
+    "snippet": "Build a Apollo-to-database pipeline in Python using dlt with AI Workbench support for Claude Code, Cursor, and Codex.",
+    "host_name": "dlthub.com",
+    "rank": 3,
+    "date": "May 19, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.apollo.io/product/api",
+    "name": "Powerful B2B Data Integration for Sales Teams - Apollo API",
+    "snippet": "Access Apollo's powerful B2B data API to integrate 230M+ contacts into your sales systems. Query contacts, companies & more with flexible REST API calls.",
+    "host_name": "www.apollo.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://python-apollo.readthedocs.io",
+    "name": "Welcome to Python-Apollo's documentation! — Python documentation",
+    "snippet": "Welcome to Python-Apollo's documentation!¶. Apollo API Library · Installation · Examples · History · Development · License · Support · Commands · annotations ...",
+    "host_name": "python-apollo.readthedocs.io",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://endgrate.com/blog/using-the-apollo-api-to-get-users-(with-python-examples)",
+    "name": "Using the Apollo API to Get Users (with Python examples) - Endgrate",
+    "snippet": "Learn to use Apollo API for user management with Python, including setup, API calls, and best practices.",
+    "host_name": "endgrate.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.apollographql.com",
+    "name": "Apollo GraphQL",
+    "snippet": "Bring all APIs together in minutes on a declarative query-based GraphQL platform. Power any app with real-time data. Build, debug, and deploy faster than ever.",
+    "host_name": "www.apollographql.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/jailbreak/comments/145y787/tutorial_how_to_add_your_own_api_key_to_apollo",
+    "name": "[Tutorial] How to add your own API key to Apollo (tested + working)",
+    "snippet": "Go to Settings -> General inside of Apollo and select \"Custom API\" in the right corner of the navigation bar. From there, you can enter your own ...",
+    "host_name": "www.reddit.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/elviskahoro/apollo-sdk-python",
+    "name": "elviskahoro/apollo-sdk-python - GitHub",
+    "snippet": "The Apollo SDK Python library provides convenient access to the Apollo SDK REST API from any Python 3.9+ application. The library includes type definitions ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

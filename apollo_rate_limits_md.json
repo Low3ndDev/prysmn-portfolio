@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\"># Rate Limits\n\n## Check Your Rate Limits\n\nYour team's API access is determined by your [Apollo pricing plan](https://docs.apollo.io/docs/api-pricing). To check your API rate limits across each public endpoint, call the [View API Usage Stats and Rate Limits](https://docs.apollo.io/reference/view-api-usage-stats) endpoint.\n\nApollo uses a fixed-window rate limiting strategy for API calls. As an example of this strategy, if your team’s rate limit is 200 requests per minute, those requests can be made at any interval within a 60-second window.</pre></body></html>",
+    "title": "",
+    "url": "https://docs.apollo.io/reference/rate-limits.md",
+    "usage": {
+      "tokens": 160
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 160
+    }
+  },
+  "status": 20000
+}

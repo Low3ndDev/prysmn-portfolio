@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://buyvm.net",
+    "name": "BuyVM - Affordable Hosting with a touch of Insanity",
+    "snippet": "Experience our feature packed virtual private servers with SSD storage starting at $2.00 per month! Free DirectAdmin License with every service!",
+    "host_name": "buyvm.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gist.github.com/yyonot/e41dbfd8f8177373285a2c9f78dab3f8",
+    "name": "BuyVM (FranTech) Review 2026: $2/Month VPS, Unmetered",
+    "snippet": "For a 4 GB RAM server with SSD storage and unmetered bandwidth, BuyVM comes in at $15/month. The same rough spec at DigitalOcean runs around $40/month, Vultr at ...",
+    "host_name": "gist.github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://lowendbox.com/blog/buyvm-get-a-cheap-vps-dance-half-naked",
+    "name": "BuyVM: Get a Cheap VPS, Dance Half Naked! - LowEndBox",
+    "snippet": "BuyVM's main offering these day are their “slices” which are KVM VPSes: 512MB Memory for $2/mo or $20/year! 1GB is $3.50/month; 2GB is $7.00/ ...",
+    "host_name": "lowendbox.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://buyvm.net/kvm-dedicated-server-slices",
+    "name": "Unmetered Dedicated KVM Slice Servers from BuyVM",
+    "snippet": "$3.50 per month. ORDER THIS PACKAGE. SLICE 2048. 1 Core @ 3.50+ GHz; Fair Share CPU Usage; 2048 MB Memory; 40 GB SSD Storage; Unmetered Bandwidth; 1 IPv4 ...",
+    "host_name": "buyvm.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.whtop.com/review/buyvm.net",
+    "name": "BuyVM Review 2026 - ratings by 2 users. Avg. Rank 1/10 - WHTop",
+    "snippet": "The entry level is very aggressive, with Dedicated KVM Slices starting around $24/year for the smallest tier and $3.50/month for a 1 GB slice. Standard KVM VPS ...",
+    "host_name": "www.whtop.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

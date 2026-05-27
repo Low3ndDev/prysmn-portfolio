@@ -41,17 +41,6 @@ const demos = [
     icon: Droplets,
     features: ['Emergency CTA', 'Tips blog section', '60-min guarantee', 'Service cards'],
   },
-  {
-    href: '/quantum-electrical',
-    title: 'Quantum Electrical Services',
-    trade: 'Electrician',
-    location: 'Sunbury, VIC',
-    type: 'Prospect Demo',
-    description: 'Personalized prospect demo for a 5.0-star electrician in Sunbury. Electric blue palette, callback form, GHL-powered booking widget.',
-    gradient: 'from-[#1a4b8c] to-[#2a5b9c]',
-    icon: Zap,
-    features: ['Callback form', 'Booking widget', 'Live chat', 'FAQ accordion', 'Stat counters'],
-  },
 ]
 
 export default function Home() {
@@ -81,7 +70,7 @@ export default function Home() {
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium mb-6">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-            4 Demo Websites Ready
+            3 Demo Websites Ready
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-[1.1] mb-4">
             Portfolio{' '}

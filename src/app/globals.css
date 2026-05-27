@@ -3,4 +3,7 @@
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-brand: var(--brand-color, #0078d4);
+  --color-brand-light: var(--brand-color-light, #e8f4fd);
+  --color-brand-dark: var(--brand-color-dark, #005a9e);
 }

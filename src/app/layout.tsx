@@ -8,8 +8,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Prysmn Portfolio | Demo Websites",
-  description: "Professional website designs for Australian trades businesses by Prysmn Web Solutions",
+  title: process.env.NEXT_PUBLIC_BUSINESS_NAME || "Pro Trades",
+  description: process.env.NEXT_PUBLIC_TAGLINE || "Professional trades services",
 };
 
 export default function RootLayout({
@@ -17,9 +17,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const brandColor = process.env.NEXT_PUBLIC_BRAND_COLOR || "#0078d4";
+
   return (
-    <html lang="en">
-      <body className={geistSans.variable + " font-sans antialiased"}>
+    <html lang="en" className="scroll-smooth">
+      <head>
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
+              :root {
+                --brand-color: ${brandColor};
+              }
+            `,
+          }}
+        />
+      </head>
+      <body className={`${geistSans.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>

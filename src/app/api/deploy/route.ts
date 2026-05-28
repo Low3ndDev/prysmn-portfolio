@@ -10,6 +10,7 @@ interface DeployRequest {
   state: string;
   services: { name: string; description: string }[];
   brand_color: string;
+  template?: string;
   tagline?: string;
   email?: string;
   year_founded?: string;
@@ -39,6 +40,7 @@ export async function POST(req: NextRequest) {
       state,
       services,
       brand_color,
+      template,
       tagline,
       email,
       year_founded,
@@ -64,7 +66,8 @@ export async function POST(req: NextRequest) {
       NEXT_PUBLIC_PHONE: phone,
       NEXT_PUBLIC_SUBURB: suburb,
       NEXT_PUBLIC_STATE: state,
-      NEXT_PUBLIC_BRAND_COLOR: brand_color || "#0078d4",
+      NEXT_PUBLIC_BRAND_COLOR: brand_color || "#fca12c",
+      NEXT_PUBLIC_TEMPLATE: template || "default",
     };
 
     // Optional fields
@@ -210,6 +213,7 @@ export async function GET() {
       contentType: "application/json",
       requiredFields: ["business_name", "phone", "suburb", "state"],
       optionalFields: [
+        "template",
         "services",
         "brand_color",
         "tagline",
@@ -231,7 +235,8 @@ export async function GET() {
           { name: "Emergency Plumbing", description: "24/7 emergency callouts" },
           { name: "Hot Water Systems", description: "Installation and repair" },
         ],
-        brand_color: "#0078d4",
+        template: "sapruin",
+        brand_color: "#fca12c",
         service_areas: ["Melton", "Bacchus Marsh", "Caroline Springs"],
       },
     },

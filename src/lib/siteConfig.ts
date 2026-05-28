@@ -53,7 +53,8 @@ const rawTestimonials = safeJSON<{ name: string; text: string; rating: number; s
 const businessName = process.env.NEXT_PUBLIC_BUSINESS_NAME || 'Pro Trades';
 const suburb = process.env.NEXT_PUBLIC_SUBURB || 'Melbourne';
 const state = process.env.NEXT_PUBLIC_STATE || 'VIC';
-const brandColor = process.env.NEXT_PUBLIC_BRAND_COLOR || '#0078d4';
+const brandColor = process.env.NEXT_PUBLIC_BRAND_COLOR || '#fca12c';
+const template = process.env.NEXT_PUBLIC_TEMPLATE || 'default';
 
 export const siteConfig = {
   business: {
@@ -87,4 +88,5 @@ export const siteConfig = {
   brand: {
     color: brandColor,
   },
+  template,
 };

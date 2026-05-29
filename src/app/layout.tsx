@@ -8,8 +8,28 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: process.env.NEXT_PUBLIC_BUSINESS_NAME || "Pro Trades",
-  description: process.env.NEXT_PUBLIC_TAGLINE || "Professional trades services",
+  title: "Prysmn — Websites & AI Systems for Aussie Tradies",
+  description:
+    "We build websites, AI chatbots, missed-call text-back, and automated follow-up systems for Australian tradies. More leads. Less manual work. Built for plumbers, electricians, landscapers, and every trade in between.",
+  keywords: [
+    "tradie website",
+    "plumber website Australia",
+    "electrician website Sydney",
+    "tradie marketing",
+    "AI for tradies",
+    "missed call text back",
+    "automated follow-up",
+    "GoHighLevel",
+    "trades business growth",
+  ],
+  openGraph: {
+    title: "Prysmn — Websites & AI Systems for Aussie Tradies",
+    description:
+      "Stop losing leads. Get a website that converts, AI that answers calls 24/7, and automated follow-up that books jobs while you're on the tools.",
+    url: "https://prysmn.com",
+    siteName: "Prysmn",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -17,22 +37,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const brandColor = process.env.NEXT_PUBLIC_BRAND_COLOR || "#0078d4";
-
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <style
-          dangerouslySetInnerHTML={{
-            __html: `
-              :root {
-                --brand-color: ${brandColor};
-              }
-            `,
-          }}
-        />
-      </head>
-      <body className={`${geistSans.variable} font-sans antialiased`}>
+      <body className={`${geistSans.variable} font-sans antialiased bg-[#0a0a0a]`}>
         {children}
       </body>
     </html>
